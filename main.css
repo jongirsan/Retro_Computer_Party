@@ -1,0 +1,118 @@
+* { margin:0; padding:0;}
+
+@font-face 
+{
+    font-family: seven-segment;
+    src:url("fonts/seven-segment.ttf");
+}
+
+@font-face 
+{
+    font-family: bttf;
+    src:url("fonts/BTTF.ttf");
+}
+
+.cover
+{
+    /*background-color: blue;*/
+    background-image: url("pics/wp1.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    min-height: 150px;
+    height: 50vh; width: 100vw;
+    color: hsla(0,0%,100%,.8);
+    font-family: 'Big Shoulders Inline Text', cursive;
+    text-align: center;
+}
+
+.bekezdes h1
+{
+ letter-spacing: 0.125em;
+ font-size: 2rem;
+ font-weight: bold;
+ text-align: center;
+ background: rgb(228,238,174);
+ background: linear-gradient(90deg, rgba(228,238,174,1) 0%, rgba(8,17,247,1) 100%);
+ display: table;
+ margin: auto;
+ border-radius: 4rem;
+ padding: 1rem;
+ font-family: 'Lobster', cursive;
+}
+
+.torzs
+{
+    padding-top:2rem;
+    margin-left: 10px;
+    margin-right: 10px;  
+    font-size: 1.5rem;  
+}
+.torzs p
+{
+    padding-top: 3rem;
+    padding-bottom: 3rem;  
+  
+}
+
+.table th , .tabletext
+{   text-align: center;}
+
+
+
+body
+{
+/* background-image: url("pics/wp5.jpg");*/
+ background-color: rgba(210, 180, 222, 1);
+ color: black;
+ font-family: 'Roboto', sans-serif;
+ font-weight: bold;
+ text-align: justify; 
+}
+
+
+/* ALAP TAG-ek formázása*/
+.cover h1
+{
+    font-size: 6rem;
+    margin:0 0;
+    background: -webkit-linear-gradient(rgb(41, 7, 233), rgb(64, 241, 11));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cover h2
+{
+    font-size: 3rem;
+    background-color: limegreen;
+    margin-left: 10%;
+    margin-right: 10%
+   
+}   
+
+h3
+{
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#clock
+{
+    font-family: seven-segment;
+    font-size: 5rem;
+    text-align: center;
+    position: relative;
+    color: darkolivegreen;
+    background-color: hsla(0,0%,0%,.8);
+}
+
+/*Méretváltozáskor*/
+@media screen and (min-width: 1000px)
+{
+ .cover {min-height: 400px;}
+ .cover h1 {font-size: 14rem;}
+ .cover h2 {font-size: 7rem;}  
+ .torzs {padding-left: 200px; padding-right: 200px; font-size: 2em; line-height: 1.5em;}
+}
+
